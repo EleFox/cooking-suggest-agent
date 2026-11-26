@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="555" viewBox="0 0 1000 555" role="img"><title>菜单推荐数据流时序图</title><rect width="100%" height="100%" fill="white"/><g font-family="system-ui, PingFang SC, Microsoft YaHei, sans-serif">
+<rect x="280" y="182" width="695" height="236" rx="6" fill="#f3f6fc" stroke="#bac9dc" stroke-dasharray="none"/>
+<text x="294" y="200" text-anchor="start" font-size="14" font-weight="600" fill="#193c35">loop  推荐不足时再查，最多四轮</text>
+<path d="M115 62V542" fill="none" stroke="#afc2bb" stroke-width="1.6" stroke-dasharray="5 5" stroke-linejoin="round"/>
+<rect x="28" y="11" width="174" height="51" rx="6" fill="#f1f5f5" stroke="#728e86" stroke-dasharray="none"/>
+<text x="115" y="43" text-anchor="middle" font-size="19" font-weight="650" fill="#193c35">Web前端</text>
+<path d="M370 62V542" fill="none" stroke="#afc2bb" stroke-width="1.6" stroke-dasharray="5 5" stroke-linejoin="round"/>
+<rect x="283" y="11" width="174" height="51" rx="6" fill="#e6f3ed" stroke="#728e86" stroke-dasharray="none"/>
+<text x="370" y="43" text-anchor="middle" font-size="19" font-weight="650" fill="#193c35">Web 后端</text>
+<path d="M625 62V542" fill="none" stroke="#afc2bb" stroke-width="1.6" stroke-dasharray="5 5" stroke-linejoin="round"/>
+<rect x="538" y="11" width="174" height="51" rx="6" fill="#fff1e1" stroke="#728e86" stroke-dasharray="none"/>
+<text x="625" y="43" text-anchor="middle" font-size="19" font-weight="650" fill="#193c35">推荐 Agent</text>
+<path d="M880 62V542" fill="none" stroke="#afc2bb" stroke-width="1.6" stroke-dasharray="5 5" stroke-linejoin="round"/>
+<rect x="793" y="11" width="174" height="51" rx="6" fill="#f1f5f5" stroke="#728e86" stroke-dasharray="none"/>
+<text x="880" y="43" text-anchor="middle" font-size="19" font-weight="650" fill="#193c35">外部模型服务</text>
+<text x="242.5" y="98" text-anchor="middle" font-size="16" font-weight="550" fill="#46645c">提交用餐条件与推荐数量</text>
+<path d="M115 106H364" fill="none" stroke="#46645c" stroke-width="1.6" stroke-dasharray="none" stroke-linejoin="round"/>
+<path d="M370 106l-10 -4v8z" fill="#46645c"/>
+<text x="497.5" y="158" text-anchor="middle" font-size="16" font-weight="550" fill="#46645c">发送偏好、忌口及已选菜谱</text>
+<path d="M370 166H619" fill="none" stroke="#46645c" stroke-width="1.6" stroke-dasharray="none" stroke-linejoin="round"/>
+<path d="M625 166l-10 -4v8z" fill="#46645c"/>
+<text x="497.5" y="218" text-anchor="middle" font-size="16" font-weight="550" fill="#86502b">查询候选，排除已选菜谱</text>
+<path d="M625 226H376" fill="none" stroke="#86502b" stroke-width="1.6" stroke-dasharray="none" stroke-linejoin="round"/>
+<path d="M370 226l10 -4v8z" fill="#86502b"/>
+<text x="497.5" y="278" text-anchor="middle" font-size="16" font-weight="550" fill="#46645c">返回候选菜谱摘要</text>
+<path d="M370 286H619" fill="none" stroke="#46645c" stroke-width="1.6" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<path d="M625 286l-10 -4v8z" fill="#46645c"/>
+<text x="752.5" y="338" text-anchor="middle" font-size="16" font-weight="550" fill="#86502b">按用餐条件筛选候选</text>
+<path d="M625 346H874" fill="none" stroke="#86502b" stroke-width="1.6" stroke-dasharray="none" stroke-linejoin="round"/>
+<path d="M880 346l-10 -4v8z" fill="#86502b"/>
+<text x="752.5" y="398" text-anchor="middle" font-size="16" font-weight="550" fill="#46645c">返回选中的菜谱</text>
+<path d="M880 406H631" fill="none" stroke="#46645c" stroke-width="1.6" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<path d="M625 406l10 -4v8z" fill="#46645c"/>
+<text x="497.5" y="458" text-anchor="middle" font-size="16" font-weight="550" fill="#86502b">返回推荐菜谱 ID</text>
+<path d="M625 466H376" fill="none" stroke="#86502b" stroke-width="1.6" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<path d="M370 466l10 -4v8z" fill="#86502b"/>
+<text x="242.5" y="518" text-anchor="middle" font-size="16" font-weight="550" fill="#46645c">返回菜单卡片</text>
+<path d="M370 526H121" fill="none" stroke="#46645c" stroke-width="1.6" stroke-dasharray="6 4" stroke-linejoin="round"/>
+<path d="M115 526l10 -4v8z" fill="#46645c"/>
+</g></svg>
