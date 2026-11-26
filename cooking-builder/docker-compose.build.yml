@@ -1,0 +1,26 @@
+# ===========================================================================
+# 构建覆盖文件（仅“构建机器”使用，生产离线包不包含本文件）。
+#
+#   docker compose -f docker-compose.yml -f docker-compose.build.yml build
+#
+# 基础 compose 只声明 image，不声明 build，因此生产环境加载镜像后可直接
+# `docker compose up -d`，无需源码。
+# ===========================================================================
+services:
+  web-backend:
+    platform: ${TARGET_PLATFORM:-linux/amd64}
+    build:
+      context: ..
+      dockerfile: cooking-builder/web-backend/Dockerfile
+
+  agent-service:
+    platform: ${TARGET_PLATFORM:-linux/amd64}
+    build:
+      context: ..
+      dockerfile: cooking-builder/agent-service/Dockerfile
+
+  frontend:
+    platform: ${TARGET_PLATFORM:-linux/amd64}
+    build:
+      context: ..
+      dockerfile: cooking-builder/frontend/Dockerfile

@@ -1,0 +1,41 @@
+{
+  "id": "8edba6ad-5d41-806a-8008-840a8dd46b78",
+  "name": "results-screen",
+  "type": "board",
+  "children": [
+    { "id": "8edba6ad-5d41-806a-8008-840fbcebb3c3", "name": "result-title", "type": "text" },
+    { "id": "8edba6ad-5d41-806a-8008-840ffaaa4dea", "name": "dish-01-card-clickable", "type": "rectangle" },
+    { "id": "8edba6ad-5d41-806a-8008-841224619d80", "name": "dish-01-image-placeholder", "type": "rectangle" },
+    { "id": "8edba6ad-5d41-806a-8008-840ffac47291", "name": "dish-01-title", "type": "text" },
+    { "id": "8edba6ad-5d41-806a-8008-840ffac8d51c", "name": "dish-01-ingredients-label", "type": "text" },
+    { "id": "8edba6ad-5d41-806a-8008-840ffacda422", "name": "dish-01-ingredients", "type": "text" },
+    { "id": "8edba6ad-5d41-806a-8008-840ffaf0e8e8", "name": "dish-02-card-clickable", "type": "rectangle" },
+    { "id": "8edba6ad-5d41-806a-8008-841224a0c33c", "name": "dish-02-image-placeholder", "type": "rectangle" },
+    { "id": "8edba6ad-5d41-806a-8008-840ffb07eff8", "name": "dish-02-title", "type": "text" },
+    { "id": "8edba6ad-5d41-806a-8008-840ffb0becb3", "name": "dish-02-ingredients-label", "type": "text" },
+    { "id": "8edba6ad-5d41-806a-8008-840ffb0f89b2", "name": "dish-02-ingredients", "type": "text" },
+    { "id": "8edba6ad-5d41-806a-8008-840ffb2fae17", "name": "add-more-action", "type": "rectangle" },
+    { "id": "8edba6ad-5d41-806a-8008-840ffb36a235", "name": "add-more-title", "type": "text" },
+    { "id": "2b55e52d-f0fe-80f8-8008-8424d1dd03d6", "name": "dish-01-delete-corner", "type": "rectangle" },
+    { "id": "2b55e52d-f0fe-80f8-8008-8424d1f3fae7", "name": "dish-01-delete-hit-area", "type": "rectangle" },
+    { "id": "2b55e52d-f0fe-80f8-8008-8424d1fa6f72", "name": "dish-02-delete-corner", "type": "rectangle" },
+    { "id": "2b55e52d-f0fe-80f8-8008-8424d218e0a7", "name": "dish-02-delete-hit-area", "type": "rectangle" },
+    { "id": "b53074e8-7ca0-8059-8008-84286a75a43f", "name": "dish-01-time-label", "type": "text" },
+    { "id": "b53074e8-7ca0-8059-8008-84286a7d4bc6", "name": "dish-01-time-value", "type": "text" },
+    { "id": "b53074e8-7ca0-8059-8008-84286a830f7f", "name": "dish-01-difficulty-label", "type": "text" },
+    { "id": "b53074e8-7ca0-8059-8008-84286a8925e6", "name": "dish-01-difficulty-value", "type": "text" },
+    { "id": "b53074e8-7ca0-8059-8008-84286a8f7c60", "name": "dish-02-time-label", "type": "text" },
+    { "id": "b53074e8-7ca0-8059-8008-84286a9555a6", "name": "dish-02-time-value", "type": "text" },
+    { "id": "b53074e8-7ca0-8059-8008-84286a9acfbf", "name": "dish-02-difficulty-label", "type": "text" },
+    { "id": "b53074e8-7ca0-8059-8008-84286aa005bb", "name": "dish-02-difficulty-value", "type": "text" },
+    { "id": "b53074e8-7ca0-8059-8008-84286aa617f1", "name": "dish-01-delete-icon", "type": "text" },
+    { "id": "b53074e8-7ca0-8059-8008-84286aab58ab", "name": "dish-02-delete-icon", "type": "text" },
+    {
+      "id": "e42f64fd-02a0-806f-8008-9cc761714b1a",
+      "name": "recipe-management-entry",
+      "type": "board",
+      "layout": { "type": "flex", "dir": "row", "rowGap": 0, "columnGap": 0 },
+      "children": [{ "id": "e42f64fd-02a0-806f-8008-9cc761772858", "name": "recipe-management-entry-label", "type": "text" }]
+    }
+  ]
+}

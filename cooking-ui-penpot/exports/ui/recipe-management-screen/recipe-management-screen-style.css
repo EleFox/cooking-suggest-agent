@@ -1,0 +1,1528 @@
+/* recipe-management-screen */
+.recipeman-9cbd1ee9ee8b {
+  position: relative;
+  width: 100%;
+  background: #ffffffFF;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: start;
+  row-gap: 32px;
+  padding-inline-start: 32px;
+  padding-inline-end: 32px;
+  padding-block-start: 64px;
+  padding-block-end: 64px;
+  z-index: 0;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+}
+
+/* recipe-management-add */
+.recipeman-9cbd5a709b10 {
+  position: absolute;
+  left: 32px;
+  top: 1182px;
+  width: 100%;
+  background: #2563ebFF;
+  border-start-start-radius: 16px;
+  border-start-end-radius: 16px;
+  border-end-start-radius: 16px;
+  border-end-end-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  align-content: stretch;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 1;
+}
+
+/* recipe-management-list */
+.recipeman-9cbd497280e1 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #FFFFFFFF;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: start;
+  row-gap: 16px;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 752px;
+  min-block-size: 752px;
+}
+
+/* recipe-management-search */
+.recipeman-9cbd1ef6afd8 {
+  position: relative;
+  width: 100%;
+  height: 88px;
+  background: #ffffffFF;
+  border: 2px solid #e5e7ebFF;
+  border-start-start-radius: 12px;
+  border-start-end-radius: 12px;
+  border-end-start-radius: 12px;
+  border-end-end-radius: 12px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  align-content: stretch;
+  justify-content: start;
+  column-gap: 12px;
+  padding-inline-start: 24px;
+  padding-inline-end: 24px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/* recipe-management-title */
+.recipeman-9cbd1ef14f18 {
+  height: 39px;
+  flex-shrink: 0;
+}
+.recipeman-9cbd1ef14f18 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipeman-9cbd1ef14f18 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipeman-9cbd1ef14f18 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipeman-9cbd1ef14f18 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(31, 41, 55, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 32px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(31, 41, 55, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* recipe-management-add-label */
+.recipeman-9cbd5a78d8b8 {
+  height: 24px;
+  flex-shrink: 0;
+}
+.recipeman-9cbd5a78d8b8 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipeman-9cbd5a78d8b8 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipeman-9cbd5a78d8b8 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipeman-9cbd5a78d8b8 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* recipe-card-03 */
+.recipecar-9cbd4a3080ea {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background: #ffffffFF;
+  border: 2px solid #e5e7ebFF;
+  border-start-start-radius: 16px;
+  border-start-end-radius: 16px;
+  border-end-start-radius: 16px;
+  border-end-end-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+  align-content: stretch;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/* recipe-card-02 */
+.recipecar-9cbd49c5522e {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background: #ffffffFF;
+  border: 2px solid #e5e7ebFF;
+  border-start-start-radius: 16px;
+  border-start-end-radius: 16px;
+  border-end-start-radius: 16px;
+  border-end-end-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+  align-content: stretch;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/* recipe-card-01 */
+.recipecar-9cbd497817e3 {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  background: #ffffffFF;
+  border: 2px solid #e5e7ebFF;
+  border-start-start-radius: 16px;
+  border-start-end-radius: 16px;
+  border-end-start-radius: 16px;
+  border-end-end-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+  align-content: stretch;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+/* recipe-card-03-delete-icon */
+.recipecar-9cbd4a6a27cc {
+  position: absolute;
+  left: 650px;
+  top: 9px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4a6a27cc .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4a6a27cc .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4a6a27cc .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4a6a27cc .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* recipe-card-03-delete-corner */
+.recipecar-9cbd4a63bed6 {
+  position: absolute;
+  left: 620px;
+  top: 0px;
+  width: 66px;
+  height: 66px;
+  background: #dc2626FF;
+  border-end-end-radius: 88px;
+  flex-shrink: 0;
+}
+
+/* recipe-card-03-delete-hit-area */
+.recipecar-9cbd4a5dae17 {
+  position: absolute;
+  left: 598px;
+  top: 0px;
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+}
+
+/* recipe-card-03-difficulty-value */
+.recipecar-9cbd4a582edc {
+  position: absolute;
+  left: 388px;
+  top: 168px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4a582edc .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4a582edc .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4a582edc .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4a582edc .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(37, 99, 235, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(37, 99, 235, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-03-difficulty-label */
+.recipecar-9cbd4a535f9c {
+  position: absolute;
+  left: 388px;
+  top: 144px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4a535f9c .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4a535f9c .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4a535f9c .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4a535f9c .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(107, 114, 128, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-03-time-value */
+.recipecar-9cbd4a4d8acd {
+  position: absolute;
+  left: 228px;
+  top: 168px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4a4d8acd .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4a4d8acd .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4a4d8acd .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4a4d8acd .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(37, 99, 235, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(37, 99, 235, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-03-time-label */
+.recipecar-9cbd4a480d39 {
+  position: absolute;
+  left: 228px;
+  top: 144px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4a480d39 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4a480d39 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4a480d39 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4a480d39 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(107, 114, 128, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-03-ingredients */
+.recipecar-9cbd4a42ea2d {
+  position: absolute;
+  left: 228px;
+  top: 104px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4a42ea2d .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4a42ea2d .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4a42ea2d .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4a42ea2d .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(31, 41, 55, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(31, 41, 55, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* recipe-card-03-ingredients-label */
+.recipecar-9cbd4a3dfe42 {
+  position: absolute;
+  left: 228px;
+  top: 78px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4a3dfe42 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4a3dfe42 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4a3dfe42 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4a3dfe42 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(107, 114, 128, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-03-title */
+.recipecar-9cbd4a387f4d {
+  position: absolute;
+  left: 228px;
+  top: 28px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4a387f4d .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4a387f4d .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4a387f4d .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4a387f4d .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(31, 41, 55, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(31, 41, 55, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* recipe-card-03-image-placeholder */
+.recipecar-9cbd4a35025c {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  width: 180px;
+  height: 180px;
+  background: #eff6ffFF;
+  border-start-start-radius: 24px;
+  border-start-end-radius: 24px;
+  border-end-start-radius: 24px;
+  border-end-end-radius: 24px;
+  flex-shrink: 0;
+}
+
+/* recipe-card-02-delete-icon */
+.recipecar-9cbd4a19b3ee {
+  position: absolute;
+  left: 650px;
+  top: 9px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4a19b3ee .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4a19b3ee .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4a19b3ee .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4a19b3ee .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* recipe-card-02-delete-corner */
+.recipecar-9cbd4a13f20a {
+  position: absolute;
+  left: 620px;
+  top: 0px;
+  width: 66px;
+  height: 66px;
+  background: #dc2626FF;
+  border-end-end-radius: 88px;
+  flex-shrink: 0;
+}
+
+/* recipe-card-02-delete-hit-area */
+.recipecar-9cbd4a0ea8d9 {
+  position: absolute;
+  left: 598px;
+  top: 0px;
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+}
+
+/* recipe-card-02-difficulty-value */
+.recipecar-9cbd4a05f98b {
+  position: absolute;
+  left: 388px;
+  top: 168px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4a05f98b .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4a05f98b .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4a05f98b .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4a05f98b .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(22, 163, 74, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(22, 163, 74, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-02-difficulty-label */
+.recipecar-9cbd49fd70b7 {
+  position: absolute;
+  left: 388px;
+  top: 144px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd49fd70b7 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd49fd70b7 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd49fd70b7 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd49fd70b7 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(107, 114, 128, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-02-time-value */
+.recipecar-9cbd49f4c49a {
+  position: absolute;
+  left: 228px;
+  top: 168px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd49f4c49a .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd49f4c49a .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd49f4c49a .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd49f4c49a .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(37, 99, 235, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(37, 99, 235, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-02-time-label */
+.recipecar-9cbd49ec13c4 {
+  position: absolute;
+  left: 228px;
+  top: 144px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd49ec13c4 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd49ec13c4 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd49ec13c4 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd49ec13c4 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(107, 114, 128, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-02-ingredients */
+.recipecar-9cbd49e3bf91 {
+  position: absolute;
+  left: 228px;
+  top: 104px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd49e3bf91 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd49e3bf91 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd49e3bf91 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd49e3bf91 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(31, 41, 55, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(31, 41, 55, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* recipe-card-02-ingredients-label */
+.recipecar-9cbd49dae381 {
+  position: absolute;
+  left: 228px;
+  top: 78px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd49dae381 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd49dae381 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd49dae381 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd49dae381 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(107, 114, 128, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-02-title */
+.recipecar-9cbd49d1ea03 {
+  position: absolute;
+  left: 228px;
+  top: 28px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd49d1ea03 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd49d1ea03 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd49d1ea03 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd49d1ea03 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(31, 41, 55, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(31, 41, 55, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* recipe-card-02-image-placeholder */
+.recipecar-9cbd49ccae31 {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  width: 180px;
+  height: 180px;
+  background: #eff6ffFF;
+  border-start-start-radius: 24px;
+  border-start-end-radius: 24px;
+  border-end-start-radius: 24px;
+  border-end-end-radius: 24px;
+  flex-shrink: 0;
+}
+
+/* recipe-card-01-delete-icon */
+.recipecar-9cbd49bbd3ec {
+  position: absolute;
+  left: 650px;
+  top: 9px;
+  height: 29px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd49bbd3ec .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd49bbd3ec .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd49bbd3ec .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd49bbd3ec .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(255, 255, 255, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 24px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* recipe-card-01-delete-corner */
+.recipecar-9cbd49b58e56 {
+  position: absolute;
+  left: 620px;
+  top: 0px;
+  width: 66px;
+  height: 66px;
+  background: #dc2626FF;
+  border-end-end-radius: 88px;
+  flex-shrink: 0;
+}
+
+/* recipe-card-01-delete-hit-area */
+.recipecar-9cbd49af9e9d {
+  position: absolute;
+  left: 598px;
+  top: 0px;
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+}
+
+/* recipe-card-01-difficulty-value */
+.recipecar-9cbd49a674aa {
+  position: absolute;
+  left: 388px;
+  top: 168px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd49a674aa .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd49a674aa .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd49a674aa .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd49a674aa .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(37, 99, 235, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(37, 99, 235, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-01-difficulty-label */
+.recipecar-9cbd499c547a {
+  position: absolute;
+  left: 388px;
+  top: 144px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd499c547a .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd499c547a .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd499c547a .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd499c547a .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(107, 114, 128, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-01-time-value */
+.recipecar-9cbd49969280 {
+  position: absolute;
+  left: 228px;
+  top: 168px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd49969280 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd49969280 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd49969280 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd49969280 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(37, 99, 235, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(37, 99, 235, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-01-time-label */
+.recipecar-9cbd4991b2ac {
+  position: absolute;
+  left: 228px;
+  top: 144px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4991b2ac .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4991b2ac .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4991b2ac .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4991b2ac .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(107, 114, 128, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-01-ingredients */
+.recipecar-9cbd498c160c {
+  position: absolute;
+  left: 228px;
+  top: 104px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd498c160c .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd498c160c .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd498c160c .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd498c160c .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(31, 41, 55, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(31, 41, 55, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* recipe-card-01-ingredients-label */
+.recipecar-9cbd4985ec90 {
+  position: absolute;
+  left: 228px;
+  top: 78px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd4985ec90 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd4985ec90 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd4985ec90 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd4985ec90 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(107, 114, 128, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 13px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* recipe-card-01-title */
+.recipecar-9cbd497fd220 {
+  position: absolute;
+  left: 228px;
+  top: 28px;
+  height: 24px;
+  flex-shrink: 0;
+}
+.recipecar-9cbd497fd220 .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipecar-9cbd497fd220 .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipecar-9cbd497fd220 .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipecar-9cbd497fd220 .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(31, 41, 55, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 20px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(31, 41, 55, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* recipe-card-01-image-placeholder */
+.recipecar-9cbd497c2279 {
+  position: absolute;
+  left: 24px;
+  top: 24px;
+  width: 180px;
+  height: 180px;
+  background: #eff6ffFF;
+  border-start-start-radius: 24px;
+  border-start-end-radius: 24px;
+  border-end-start-radius: 24px;
+  border-end-end-radius: 24px;
+  flex-shrink: 0;
+}
+
+/* recipe-management-search-placeholder */
+.recipeman-9cbd1f06f9fc {
+  height: 20px;
+  flex-shrink: 0;
+}
+.recipeman-9cbd1f06f9fc .root-0 {
+  
+  
+  display: flex;
+  white-space: break-spaces;
+  align-items: flex-start;
+}
+.recipeman-9cbd1f06f9fc .root-0-paragraph-set-0 {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: inherit;
+  
+  margin-right: 1px;
+  vertical-align: top;
+}
+.recipeman-9cbd1f06f9fc .root-0-paragraph-set-0-paragraph-0 {
+  font-size: 0;
+  line-height: 1.2;
+  margin: 0;
+  text-align: left;
+}
+.recipeman-9cbd1f06f9fc .root-0-paragraph-set-0-paragraph-0-text-0 {
+  color: rgba(107, 114, 128, 1);
+  text-transform: none;
+  
+  line-break: auto;
+  overflow-wrap: initial;
+  white-space: pre;
+  font-size: 16px;
+  text-rendering: geometricPrecision;
+  caret-color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+  letter-spacing: 0px;
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* recipe-management-search-icon */
+.recipeman-9cbd1efbd41a {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+  align-content: stretch;
+  justify-content: start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+}
+
+/* search-icon-handle */
+.searchico-9cbe047ffce6 {
+  position: absolute;
+  left: 28px;
+  top: 22px;
+  width: 4px;
+  height: 16px;
+  transform: matrix(0.71, -0.71, 0.71, 0.71, -0.00, -0.00);
+  background: #6b7280FF;
+  border-start-start-radius: 2px;
+  border-start-end-radius: 2px;
+  border-end-start-radius: 2px;
+  border-end-end-radius: 2px;
+  flex-shrink: 0;
+}
+
+/* search-icon-ring */
+.searchico-9cbd1eff849d {
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  width: 28px;
+  height: 28px;
+  border: 3px solid #6b7280FF;
+  flex-shrink: 0;
+}

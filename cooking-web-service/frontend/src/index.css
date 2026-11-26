@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+/*
+ * UI 设计稿为 750px @2x（88px = 44pt）。代码中的尺寸/间距已统一按 1/2 的逻辑值书写，
+ * 根字号固定 16px，不再随视口缩放，避免高分屏 / 窄屏下 rem 漂移导致布局失真。
+ */
+html {
+  font-size: 16px;
+}

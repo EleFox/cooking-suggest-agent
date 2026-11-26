@@ -1,0 +1,101 @@
+# ===========================================================================
+# Cooking Suggest 一键编排（三个镜像：前端 / 接口后端 / Agent 后端）
+#
+#   docker compose -f cooking-builder/docker-compose.yml up -d --build
+#
+# 变量说明见同目录 .env.example（复制为 .env 后按需修改）。
+# 构建上下文为仓库根目录（..），以便分别读取两个子项目的源码。
+# ===========================================================================
+name: cooking-suggest
+
+services:
+  # -------------------------------------------------------------------------
+  # 接口服务后端：cooking-web-service/backend（FastAPI + SQLite）
+  # -------------------------------------------------------------------------
+  web-backend:
+    image: cooking-web-backend:${IMAGE_TAG:-latest}
+    container_name: cooking-web-backend
+    restart: unless-stopped
+    environment:
+      APP_NAME: ${WEB_APP_NAME:-Cooking Web Service}
+      DEBUG: ${DEBUG:-false}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      # 固定容器内路径，保证升级重建后旧库中的 file_path 仍可解析（见 README）。
+      DATABASE_PATH: /app/datas/${DB_FILENAME:-cooking.db}
+      AGENT_SERVICE_URL: http://agent-service:9000
+      AGENT_SERVICE_TIMEOUT: ${AGENT_SERVICE_TIMEOUT:-600.0}
+      DECISION_MAX_WORKERS: ${DECISION_MAX_WORKERS:-4}
+    volumes:
+      # 持久化：SQLite 数据库 + 菜谱 MD 目录（/app/datas/recipes）。
+      # 升级重建容器不会丢失数据。
+      # 默认使用宿主机目录（bind）；若在 Docker Desktop 上遇到 SQLite 锁问题，
+      # 可将 WEB_DATA_SOURCE 改为命名卷 cooking-web-datas（见 .env.example）。
+      - ${WEB_DATA_SOURCE:-./data/web}:/app/datas
+    ports:
+      - "${LOCAL_BIND:-127.0.0.1}:${WEB_BACKEND_PORT:-8000}:8000"
+    networks:
+      - cooking-net
+
+  # -------------------------------------------------------------------------
+  # Agent 决策后端：cooking-agent-service（LangGraph / LangChain）
+  # -------------------------------------------------------------------------
+  agent-service:
+    image: cooking-agent-service:${IMAGE_TAG:-latest}
+    container_name: cooking-agent-service
+    restart: unless-stopped
+    environment:
+      APP_NAME: ${AGENT_APP_NAME:-Cooking Agent Service}
+      DEBUG: ${DEBUG:-false}
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+      SERVER_HOST: 0.0.0.0
+      SERVER_PORT: 9000
+      SERVER_RELOAD: "false"
+      # 主模型供应方：custom / ollama / deepseek（见 common/config.py）。
+      LLM_PROVIDER: ${LLM_PROVIDER:-custom}
+      # 反向上游：Ollama / OpenAI 兼容服务 / DeepSeek。
+      OLLAMA_BASE_URL: ${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen3.5:9b}
+      CUSTOM_BASE_URL: ${CUSTOM_BASE_URL:-}
+      CUSTOM_API_KEY: ${CUSTOM_API_KEY:-}
+      CUSTOM_MODEL: ${CUSTOM_MODEL:-}
+      DEEPSEEK_BASE_URL: ${DEEPSEEK_BASE_URL:-https://api.deepseek.com}
+      DEEPSEEK_MODEL: ${DEEPSEEK_MODEL:-deepseek-chat}
+      DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
+      # 反向调用接口后端的菜谱查询/详情接口（compose 网络内服务名）。
+      API_RECIPES_QUERY: http://web-backend:8000/api/recipes
+      API_RECIPE_DETAIL_QUERY: http://web-backend:8000/api/recipes/detail
+      API_TIMEOUT: ${API_TIMEOUT:-30}
+    # 允许容器通过 host.docker.internal 访问宿主机上的 Ollama。
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "${LOCAL_BIND:-127.0.0.1}:${AGENT_SERVICE_PORT:-9000}:9000"
+    depends_on:
+      web-backend:
+        condition: service_healthy
+    networks:
+      - cooking-net
+
+  # -------------------------------------------------------------------------
+  # 前端：cooking-web-service/frontend（Nginx 托管 + /api 反向代理）
+  # -------------------------------------------------------------------------
+  frontend:
+    image: cooking-web-frontend:${IMAGE_TAG:-latest}
+    container_name: cooking-web-frontend
+    restart: unless-stopped
+    ports:
+      - "${FRONTEND_BIND:-0.0.0.0}:${FRONTEND_PORT:-8906}:80"
+    depends_on:
+      web-backend:
+        condition: service_healthy
+    networks:
+      - cooking-net
+
+networks:
+  cooking-net:
+    driver: bridge
+
+volumes:
+  # 命名卷方案（可选）：WEB_DATA_SOURCE=cooking-web-datas 时启用。
+  cooking-web-datas:
+    name: ${WEB_DATA_VOLUME_NAME:-cooking-web-datas}

@@ -1,0 +1,36 @@
+{
+  "id": "0b5e41ff-71cb-80c1-8008-9cbfff40ff11",
+  "name": "member-management-screen-empty",
+  "type": "board",
+  "layout": { "type": "flex", "dir": "column", "rowGap": 0, "columnGap": 0 },
+  "children": [
+    { "id": "0b5e41ff-71cb-80c1-8008-9cbfff48fff7", "name": "member-empty-title", "type": "text" },
+    {
+      "id": "0b5e41ff-71cb-80c1-8008-9cbfff4ecf3f",
+      "name": "member-empty-state",
+      "type": "board",
+      "layout": { "type": "flex", "dir": "column", "rowGap": 24, "columnGap": 0 },
+      "children": [
+        {
+          "id": "0b5e41ff-71cb-80c1-8008-9cbfff53fe7b",
+          "name": "member-empty-icon",
+          "type": "board",
+          "layout": { "type": "flex", "dir": "row", "rowGap": 0, "columnGap": 0 },
+          "children": [
+            { "id": "0b5e41ff-71cb-80c1-8008-9cbfff575eac", "name": "member-empty-icon-head", "type": "ellipse" },
+            { "id": "0b5e41ff-71cb-80c1-8008-9cbfff5c4ddd", "name": "member-empty-icon-body", "type": "rectangle" }
+          ]
+        },
+        { "id": "0b5e41ff-71cb-80c1-8008-9cbfff60e56f", "name": "member-empty-heading", "type": "text" },
+        { "id": "0b5e41ff-71cb-80c1-8008-9cbfff65a425", "name": "member-empty-caption", "type": "text" },
+        {
+          "id": "0b5e41ff-71cb-80c1-8008-9cbfff6ac370",
+          "name": "member-empty-add",
+          "type": "board",
+          "layout": { "type": "flex", "dir": "row", "rowGap": 0, "columnGap": 0 },
+          "children": [{ "id": "0b5e41ff-71cb-80c1-8008-9cbfff7320ec", "name": "member-empty-add-label", "type": "text" }]
+        }
+      ]
+    }
+  ]
+}

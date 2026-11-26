@@ -1,0 +1,21 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "references": {
+    "design-agreement": {
+      "path": "../../cooking-design-guide/design/agreement",
+      "description": "项目设计文档。需要查看具体的设计文档请参考这里。"
+    },
+    "requirements": {
+      "path": "../../require-prompting",
+      "description": "需求分析文档项目。分析完整的需求设计请参考这里。"
+    },
+    "sprints": {
+      "path": "../../sprint-plan",
+      "description": "迭代计划文档项目。分析迭代计划时请参考这里。"
+    },
+    "web-service": {
+      "path": "../../cooking-web-service",
+      "description": "前端和中间接口服务。需要对接接口服务以及查看前端项目时请参考这里。"
+    }
+  }
+}

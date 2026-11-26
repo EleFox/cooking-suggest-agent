@@ -1,0 +1,45 @@
+# Docker 构建上下文忽略规则（构建上下文为仓库根目录）。
+# 作用：缩小上下文、避免把宿主机依赖/缓存/密钥打进镜像。
+
+# 版本控制与系统文件
+.git
+.gitignore
+**/.DS_Store
+**/Thumbs.db
+
+# 密钥与本地环境文件（务必忽略，防止密钥进入镜像）
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python 产物与虚拟环境
+**/__pycache__
+**/*.py[cod]
+**/.venv
+**/venv
+**/.pytest_cache
+**/.ruff_cache
+**/.coverage
+**/htmlcov
+
+# Node 产物
+**/node_modules
+**/dist
+**/.vite
+
+# 编辑器
+**/.idea
+**/.vscode
+**/.opencode
+
+# 运行期数据（通过 volume 挂载，不烘焙进镜像）
+cooking-web-service/backend/datas
+cooking-builder/data
+cooking-builder/.env
+
+# 与本项目打包无关的目录
+cooking-design-guide
+cooking-ui-penpot
+data-create-agent
+require-prompting
+sprint-plan

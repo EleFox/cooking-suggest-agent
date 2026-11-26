@@ -1,0 +1,32 @@
+# Core AI Libraries
+langchain
+langgraph
+openai
+langchain-ollama
+langchain_openai
+
+# Data Processing
+numpy
+pandas
+trustcall
+
+# Web Framework
+fastapi
+uvicorn
+
+# HTTP Client
+httpx
+
+# Environment
+python-dotenv
+
+# Testing
+pytest
+pytest-asyncio
+
+# Service
+fastapi
+pydantic
+uvicorn[standard]
+pydantic-settings
+ruff
